@@ -38,6 +38,14 @@ class _HomePageState extends State<HomePage> {
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
 
+  //nandu ui
+//happy conflict
+// e Flutter framework has been optimized to make rerunning build methods
+    // fast, so that you can just rebuild anything that needs updating rather
+    // than having to individually ch
+    // e Flutter framework has been optimized to make rerunning build methods
+    // fast, so that you can just rebuild anything that needs updating rather
+    // than having to individually ch
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -111,7 +119,7 @@ class _HomePageState extends State<HomePage> {
             backgroundColor: Colors.red.withOpacity(0.2),
           ),
           BottomNavigationBarItem(
-            icon: const Icon(Icons.settings),
+            icon: const Icon(Icons.account_circle),
             label: 'Profile',
             backgroundColor: Colors.pink.withOpacity(0.2),
           )
